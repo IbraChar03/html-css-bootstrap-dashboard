@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+.navbar-dash{
+    height: 70px;
+    width: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+}
+.nav1{
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+
+}
+.logo{
+      width: 11%;  
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.logo-img{
+    width: 30px;
+    height: 25px;
+}
+.text-bool{
+    color: #0f243e;
+}
+.search-bar{
+     width: 79%; 
+    height: 100%;
+    background-color:#e5e5e5;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.input-box{
+    height: 90%;
+    width: 100%;
+    background-color: #e5e5e5;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.sea{
+    width: 100%;
+    height: 100%;
+    background-color: #e5e5e5;
+    border: none;
+    outline: none;
+    background: url(../img/search.svg) no-repeat scroll 10px 10px;
+    padding-left:30px;
+}
+
+.menu{
+      width: 10%;   
+    height: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icons-menu{
+    font-size: 18px;
+}
+.col-bell{
+    color: #ff8f00;
+}
+.sidebar{
+    width: 150px;
+    background-color: #0d253a;
+    height: calc(100vh - 70px);
+}
+.sidebar-mobile{
+    width: 80px;
+    background-color: #0d253a;
+    height: calc(100vh - 70px);
+}
+.box-menu-side{
+    height: calc(100% - 50px);
+    width: 100%;
+    background-color: blueviolet;
+}
+.menu-side{
+    height: 30%;
+    width: 100%;
+     background-color: chartreuse; 
+   
+}
+.box-text-icons{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+     background-color: #ff8f00; 
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.icons-side{
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.text-side{
+    font-size: 18px;
+    color: white;
+
+}
+.admin-side{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+}
+.main-section{
+    width: calc(100% - 150px);
+    background-color: #141922;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+}
+header{
+    width: 100% ;
+    height: 100px;
+    background-color: lightskyblue;
+}
+.cont{
+     display: flex;
+    width: 100%;
+    height: 1700px; 
+    background-color: brown;
+    padding: 20px 10px;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.cont2{
+    display: flex;
+   width: 100%;
+   height: auto; 
+   background-color: brown;
+   padding: 20px 10px;
+   flex-direction: row;
+   justify-content: space-between; 
+}
+
+.column-1{
+    width: 65%;
+    height: 100%;
+    background-color: aqua;
+    padding: 10px;
+}
+.column-3{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    padding: 10px;
+}
+.column-1-md{
+    width: 100%;
+    height: 60%;
+    background-color: aqua;
+    padding: 10px;
+}
+.box1{
+    width: 100%;
+    height: 500px;
+    background-color: chartreuse;
+    margin-bottom: 10px;
+}
+.classi{
+    height: 45px;
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.square{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    background:
+       linear-gradient(rgb(0, 47, 255) 0 0),
+      linear-gradient(rgb(0, 47, 255) 0 0), 
+       #ffffff;
+    background-position:center;
+    background-size: 45% 2px,2px 45%; 
+    background-repeat:no-repeat;
+    vertical-align: middle;
+}
+.board-classi{
+    height: 88%;
+    width: 100%;
+    background-color: white;
+}
+.board{
+    height: 100%;
+    width: 100%;
+    background-color: burlywood;
+    
+}
+.row-1{
+    height: 40px;
+    width: 100%;
+    background-color: #ff8f00;
+    
+    
+}
+.riga{
+    margin: 0;
+}
+.name{
+    height: 40px;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.data{
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.roi{
+    height: 40px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} 
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.stato{
+    height: 40px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.done{
+    padding: 1px 6px;
+    background-color: #198754;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.azioni-name{
+    height: 40px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.azioni{
+    height: 40px;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.icon-azioni{
+    font-size: 15px;
+    color: #777f87;
+}
+.pen{
+    padding: 3px 6px;
+    background-color: white;
+    border: 1px solid #b2b7bb ;
+    border-radius: 5px;
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #f26551;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.icon-class{
+    color: white;
+    font-size: 16px;
+}
+.box1-md{
+    width: 100%;
+    height: 430px;
+    background-color: chartreuse;
+    margin-bottom: 10px;
+}
+.box2{
+    width: 100%;
+    height: 30%;
+    background-color: chocolate;
+}
+.box2-md{
+    width: 100%;
+    height: 200px;
+    background-color: chocolate;
+}
+.column-2{
+    width: 35%;
+    height: 100%;
+    background-color: blue;
+    padding: 10px;
+}
+.column-2-md{
+    width: 100%;
+    height: 30%;
+    background-color: blue;
+    padding: 10px;
+}
+.box3{
+    width: 100%;
+    height: 25%;
+    background-color: chartreuse;
+    margin-bottom: 10px;
+}
+.box3-md{
+    width: 100%;
+    height: 170px;
+    background-color: chartreuse;
+    margin-bottom: 10px;
+}
+.box4{
+    width: 100%;
+    height: 70%;
+    background-color: chocolate;
+}
+.box4-md{
+    width: 100%;
+    height: 460px;
+    background-color: chocolate;
+}
+@media screen and (max-width:992px){
+    .main-section{
+        width: calc(100% - 80px);
+    }
+    .icons-side{
+        margin:0;
+    }
+    
+}

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="navbar-dash">
+        <div class="nav1">
+        <div class="logo px-lg-2">
+            <img src="img/Logo.png" class="logo-img me-lg-2">
+            <span class="text-bool d-lg-block d-none fs-5"><strong>boolean</strong> </span>
+        </div>
+        <div class="search-bar ">
+            <div class="input-box">
+            <input type="search" class="sea" placeholder= " Prova a cercare: Lezioni di Laravel">
+        </div>
+        </div>
+        <div class="menu">
+            <i class="fa-solid fa-bars icons-menu  d-lg-block d-none"></i>
+            <i class="fa-solid fa-circle-question icons-menu  d-lg-block d-none"></i>
+            <i class="fa-solid fa-ellipsis-vertical icons-menu  d-lg-block d-none"></i>
+            <i class="fa-solid fa-bell icons-menu col-bell "></i>
+        </div>
+
+        </div>
+    </section>
+  <main>
+    <section class="sidebar d-none d-lg-block">
+        <div class="box-menu-side">
+            <div class="menu-side">
+                <div class="box-text-icons ">
+                    <i class="fa-solid fa-house icons-side "></i>
+                    <span class="text-side">Home</span>
+                </div>
+                <div class="box-text-icons">
+                    <i class="fa-solid fa-chart-simple icons-side "></i>
+                    <span class="text-side">Stats</span>
+                </div>
+                <div class="box-text-icons">
+                    <i class="fa-solid fa-signal icons-side"></i>
+                    <span class="text-side">Signal</span>
+                </div>
+            </div>
+        </div>
+        <div class="admin-side">
+            <div class="box-text-icons">
+                <i class="fa-solid fa-gear icons-side"></i>
+                <span class="text-side">Admin</span>
+            </div>
+        </div>
+    </section>
+    <section class="sidebar-mobile d-lg-none d-block">
+        <div class="box-menu-side">
+            <div class="menu-side">
+                <div class="box-text-icons ">
+                    <i class="fa-solid fa-house icons-side "></i>
+                </div>
+                <div class="box-text-icons">
+                    <i class="fa-solid fa-chart-simple icons-side "></i>
+                </div>
+                <div class="box-text-icons">
+                    <i class="fa-solid fa-signal icons-side"></i>
+                </div>
+            </div>
+        </div>
+        <div class="admin-side">
+            <div class="box-text-icons">
+                <i class="fa-solid fa-gear icons-side"></i>
+            </div>
+        </div>
+    </section>
+    <section class="main-section">  
+        <header></header>
+        <div class="cont d-lg-flex d-none">
+            <div class="column-1 d-lg-block d-none">
+                <div class="box1">
+                    <div class="classi px-3">
+                        <div class="fs-3 pb-2"> Prossime classi </div>
+                        <div class="square"></div>
+                        
+                    </div>
+                    <hr class="riga">
+                    <div class="board-classi p-3">
+                        <div class="board">
+                            <div class="row-1">
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <div class="name ps-2">
+                                            <div><strong>Nome</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="data ">
+                                            <div><strong>Data inizio</strong> </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="roi ">
+                                            <div><strong>ROI</strong></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="stato ">
+                                            <div> <strong>Stato</strong> </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="azioni-name pe-2">
+                                            <div> <strong>Azioni</strong> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <hr class="riga">
+                            <div class="row-1">
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <div class="name ps-2">
+                                            <span class="circle"><i class="fa-solid fa-code icon-class"></i></span>
+                                            <span>Classe 75</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="data ">
+                                            <div class="date">15 Feb 2021</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="roi ">
+                                            <div>20&#37;</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="stato ">
+                                            <span class="done">Done</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="azioni pe-2">
+                                            <span class="pen "><i class="fa-solid fa-pen icon-azioni "></i></span>
+                                            <span class="pen"><i class="fa-solid fa-trash icon-azioni"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <hr class="riga">
+                            <div class="row-1">
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <div class="name ps-2">
+                                            <span class="circle"><i class="fa-solid fa-code icon-class"></i></span>
+                                            <span>Classe 76</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="data ">
+                                            <div class="date">16 Feb 2021</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="roi ">
+                                            <div>20&#37;</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="stato ">
+                                            <span class="done">Done</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="azioni pe-2">
+                                            <span class="pen "><i class="fa-solid fa-pen icon-azioni "></i></span>
+                                            <span class="pen"><i class="fa-solid fa-trash icon-azioni"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <hr class="riga">
+                            <div class="row-1">
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <div class="name ps-2">
+                                            <span class="circle"><i class="fa-solid fa-code icon-class"></i></span>
+                                            <span>Classe 77</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="data ">
+                                            <div class="date">17 Feb 2021</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="roi ">
+                                            <div>20&#37;</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="stato ">
+                                            <span class="done">Done</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="azioni pe-2">
+                                            <span class="pen "><i class="fa-solid fa-pen icon-azioni "></i></span>
+                                            <span class="pen"><i class="fa-solid fa-trash icon-azioni"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <hr class="riga">
+                            <div class="row-1">
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <div class="name ps-2">
+                                            <span class="circle"><i class="fa-solid fa-code icon-class"></i></span>
+                                            <span>Classe 78</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="data ">
+                                            <div class="date">18 Feb 2021</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="roi ">
+                                            <div>20&#37;</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="stato ">
+                                            <span class="done">Done</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="azioni pe-2">
+                                            <span class="pen "><i class="fa-solid fa-pen icon-azioni "></i></span>
+                                            <span class="pen"><i class="fa-solid fa-trash icon-azioni"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <hr class="riga">
+                            <div class="row-1">
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <div class="name ps-2">
+                                            <span class="circle"><i class="fa-solid fa-code icon-class"></i></span>
+                                            <span>Classe 79</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="data ">
+                                            <div class="date">19 Feb 2021</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="roi ">
+                                            <div>20&#37;</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="stato ">
+                                            <span class="done">Done</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="azioni pe-2">
+                                            <span class="pen "><i class="fa-solid fa-pen icon-azioni "></i></span>
+                                            <span class="pen"><i class="fa-solid fa-trash icon-azioni"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <hr class="riga">
+                            <div class="row-1">
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <div class="name ps-2">
+                                            <span class="circle"><i class="fa-solid fa-code icon-class"></i></span>
+                                            <span>Classe 80</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="data ">
+                                            <div class="date">20 Feb 2021</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="roi ">
+                                            <div>20&#37;</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="stato ">
+                                            <span class="done">Done</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="azioni pe-2">
+                                            <span class="pen "><i class="fa-solid fa-pen icon-azioni "></i></span>
+                                            <span class="pen"><i class="fa-solid fa-trash icon-azioni"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <hr class="riga">
+                            <div class="row-1">
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <div class="name ps-2">
+                                            <span class="circle"><i class="fa-solid fa-code icon-class"></i></span>
+                                            <span>Classe 81</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="data ">
+                                            <div class="date">21 Feb 2021</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="roi ">
+                                            <div>20&#37;</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="stato ">
+                                            <span class="done">Done</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="azioni pe-2">
+                                            <span class="pen "><i class="fa-solid fa-pen icon-azioni "></i></span>
+                                            <span class="pen"><i class="fa-solid fa-trash icon-azioni"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <hr class="riga">
+                            <div class="row-1">
+                                <div class="row ">
+                                    <div class="col-6">
+                                        <div class="name ps-2">
+                                            <span class="circle"><i class="fa-solid fa-code icon-class"></i></span>
+                                            <span>Classe 82</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="data ">
+                                            <div class="date">22 Feb 2021</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="roi ">
+                                            <div>20&#37;</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="stato ">
+                                            <span class="done">Done</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="azioni pe-2">
+                                            <span class="pen "><i class="fa-solid fa-pen icon-azioni "></i></span>
+                                            <span class="pen"><i class="fa-solid fa-trash icon-azioni"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2"></div>
+            </div>
+            <div class="column-1-md d-lg-none d-block">
+                <div class="box1"></div>
+                <div class="box2"></div>
+            </div>
+            <div class="column-2 d-lg-block d-none">
+                <div class="box3"></div>
+                <div class="box4"></div>
+            </div>
+            <div class="column-2-md d-lg-none d-block">
+                <div class="box3"></div>
+                <div class="box4"></div>
+            </div>
+        </div>
+        <div class="cont2 d-lg-none d-block">
+            <div class="column-3 d-lg-none d-block">
+                <div class="box1-md"></div>
+                <div class="box2-md"></div>
+                <div class="box3-md my-3"></div>
+                <div class="box4-md"></div>
+            </div>
+        </div>
+    </section>
+  </main>
+
+</body>
+</html>
