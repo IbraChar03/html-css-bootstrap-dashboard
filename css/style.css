@@ -91,6 +91,7 @@ main{
     height: calc(100% - 50px);
     width: 100%;
     background-color: blueviolet;
+    padding-top: 15px;
 }
 .menu-side{
     height: 30%;
@@ -99,7 +100,7 @@ main{
    
 }
 .box-text-icons{
-    height: 40px;
+    height: 50px;
     width: 100%;
     margin-bottom: 10px;
      background-color: #ff8f00; 
@@ -128,10 +129,42 @@ main{
     height: calc(100vh - 70px);
     overflow-y: auto;
 }
-header{
+.header-lg{
     width: 100% ;
     height: 100px;
     background-color: lightskyblue;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.header-md{
+    width: 100% ;
+    height: 220px;
+    background-color: lightskyblue;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+   
+}
+.header-box1{
+    width: 20%;
+    height: 70%;
+    background-color: #ffc107;
+}
+.header-box2{
+    width: 20%;
+    height: 70%;
+    background-color: brown;
+}
+.header-box1-md{
+    width: 30%;
+    height: 40%;
+    background-color: #ffc107;
+}
+.header-box2-md{
+    width: 30%;
+    height: 40%;
+    background-color: brown;
 }
 .cont{
      display: flex;
@@ -259,6 +292,20 @@ header{
 .done{
     padding: 1px 6px;
     background-color: #198754;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.process{
+    padding: 1px 6px;
+    background-color: #ffc107;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.failed{
+    padding: 1px 6px;
+    background-color: #dc3545;
     border-radius: 5px;
     color: white;
     font-size: 15px;
