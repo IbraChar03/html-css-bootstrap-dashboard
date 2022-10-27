@@ -450,7 +450,8 @@ main{
 
 .check{
     margin-right: 5px;
-    margin-top: 3px;
+    display: flex;
+    align-items: center;
 }
 .cont-box3{
     width: 90%;
