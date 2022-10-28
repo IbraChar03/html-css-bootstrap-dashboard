@@ -118,7 +118,21 @@
                 <div class="box1">
                     <div class="classi px-3">
                         <div class="fs-3 pb-2"> Prossime classi </div>
-                        <div class="square pb-2">
+                        <div class="square pb-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                             <div class="offcanvas-header">
+                               <h5 id="offcanvasRightLabel">Aggiungi Classe</h5>
+                             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> 
+                           </div>
+                            <div class="offcanvas-body">
+                             <div> <strong>Nome</strong> </div>
+                             <div><input type="text" class="name2"> </div>
+                             <div class="mt-2"> <strong>Data inizio</strong></div>
+                             <div><input type="date" class="data2"> </div>
+                             <span class="salva">Salva </span>
+                             <span class="reset"><strong>Reset</strong> </span>
+                             </div>
+                          </div>
                         </div>
                         
                     </div>
@@ -499,7 +513,7 @@
                 <div class="box1-md">
                         <div class="classi px-3">
                             <div class="fs-3 pb-2"> Prossime classi </div>
-                            <div class="square"></div>
+                            <div class="square"> </div>
                             
                         </div>
                       

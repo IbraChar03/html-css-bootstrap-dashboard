@@ -313,11 +313,38 @@ main{
     background-size: 45% 2px,2px 45%; 
     background-repeat:no-repeat;
     vertical-align: middle;
+    cursor: pointer;
+}
+ .square:hover{
+    background-color:rgba(0, 47, 255, 0.5);
+} 
+.reset{
+    padding: 8px;
+    background-color: #fdc03e;
+    color: black;
+    border-radius: 5px;
+}
+.data2{
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 5px;
+}
+.name2{
+    width: 100%;
+    margin-top: 5px;
+}
+.salva{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #2671ee;
+    color: white;
+    margin-right: 5px;
 }
 .board-classi{
     height: 88%;
     width: 100%;
     background-color: white;
+
 }
 .board{
     height: 100%;
