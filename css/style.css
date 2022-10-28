@@ -13,7 +13,7 @@ main{
     display: flex;
 }
 .nav1{
-    height: 45px;
+     height: 45px; 
     width: 100%;
     background-color: white;
     margin: auto;
@@ -91,23 +91,23 @@ main{
 .box-menu-side{
     height: calc(100% - 50px);
     width: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     padding-top: 15px;
 }
 .menu-side{
-    height: 30%;
+    /* height: 30%; */
     width: 100%;
-     background-color: chartreuse; 
+     /* background-color: chartreuse;  */
    
 }
 .box-text-icons{
-    height: 50px;
+    /* height: 50px; */
     width: 100%;
-     background-color: #ff8f00; 
+     /* background-color: #ff8f00;  */
      display: flex;
     justify-content: center;
     align-items: center; 
-    padding: 0;
+    padding: 6px 0;
 }
 .icons-side{
     color: white;
@@ -120,9 +120,9 @@ main{
 
 }
 .admin-side{
-    height: 50px;
+    /* height: 50px; */
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .main-section{
     width: calc(100% - 150px);
@@ -133,7 +133,7 @@ main{
 .header-lg{
     width: 100% ;
     /* height: 100px; */
-    background-color: lightskyblue;
+    background-color: #1b72e8;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
@@ -141,8 +141,8 @@ main{
 }
 .header-md{
     width: 100% ;
-    height: 220px;
-    background-color: lightskyblue;
+    /* height: 220px; */
+    background-color: #1b72e8;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
@@ -154,40 +154,44 @@ main{
 }
 .header-box1{
     width: 55%;
-    height: 85%;
-    background-color: #ffc107;
+    /* height: 85%; */
+    /* background-color: #ffc107; */
     padding-left: 10px;
     
 }
 .blaze{
-    padding: 2px 5px;
+    padding: 3px 5px;
     background-color: #165bba;
     border-radius: 10px;
     font-size: 13px;
 }
+
 .header-box2{
     width: 20%;
-    height: 85%;
-    background-color: brown;
+    /* height: 85%;
+    background-color: brown; */
     margin-right: 150px;
+    margin-top: 10px;
 }
 .header-box1-md{
     width: 60%;
-    height: 45%;
-    background-color: #ffc107;
+    /* height: 45%;
+    background-color: #ffc107; */
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 .header-box2-md{
     width: 60%;
-    height: 45%;
-    background-color: brown;
+    /* height: 45%; */
+    /* background-color: brown; */
     margin-left: 10px;
+    padding-bottom: 20px;
 }
 .cont{
      display: flex;
     width: 100%;
-    height: 1700px; 
-    background-color: brown;
+    /* height: 1700px;  */
+    background-color: #f8f9fa;
     padding: 20px 10px;
     flex-direction: row;
     justify-content: space-between; 
@@ -195,8 +199,8 @@ main{
 .cont2{
     display: flex;
    width: 100%;
-   height:1700px; 
-   background-color: brown;
+   /* height:1700px;  */
+   background-color: #f8f9fa;
    padding: 20px 10px;
    flex-direction: row;
    justify-content: space-between; 
@@ -204,20 +208,20 @@ main{
 
 .column-1{
     width: 65%;
-    height: 100%;
-    background-color: aqua;
+    /* height: 100%;
+    background-color: aqua; */
     padding: 10px;
 }
 .column-3{
     width: 100%;
-    height: 100%;
-    background-color: aqua;
+    /* height: 100%;
+    background-color: aqua; */
     padding: 10px;
 }
 .column-1-md{
     width: 100%;
-    height: 60%;
-    background-color: aqua;
+    /* height: 60%;
+    background-color: aqua; */
     padding: 10px;
 }
 .box1{
@@ -240,7 +244,7 @@ main{
     border-bottom: 1px solid #d0d0d0;
 }
 .faq{
-    height: 50px;
+    /* height: 50px; */
     width: 100%;
     background-color: #f7f7f7;
     display: flex;
@@ -250,22 +254,43 @@ main{
     width: 100%;
 }
 .main-faq{
-    height: 80%;
+    /* height: 80%; */
     width: 100%;
     color: white;
 }
-.domanda1{
-    width: 100%;
-    height: 50px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: black;
-    padding: 0 40px;
-    border-bottom: 1px solid #d0d0d0;
-    width: 100%;
+.dom{
+    float: left;
 }
+.domanda{
+    width: 100%;
+     /* height: 50px;  */
+    background-color: white;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+    color: black;
+    padding: 15px 50px;
+    border-bottom: 1px solid #d0d0d0;
+
+}
+.risposta{
+    margin-top: 20px;
+    display: none;
+}
+.domanda:active .risposta{
+    cursor: pointer;
+    display: block;
+}
+.domanda:active .icon-down{
+    display: none;
+}
+.domanda:active .icon-up{
+    display: block;
+    visibility: visible;
+}
+
+
 .square{
     display:inline-block;
     width:40px;
@@ -294,11 +319,11 @@ main{
     
 }
 .row-1{
-    height: 50px;
+     /* height: 50px;  */
     width: 100%;
     /* background-color: #ff8f00; */
     border-bottom: 1px solid #d0d0d0; 
-    padding-top: 5px;
+     padding: 10px 0px; 
     
     
     
@@ -308,26 +333,29 @@ main{
     border: 1px solid red;
 }
 .name{
-    height: 40px;
+     /* height: 40px;  */
     /* background-color: blue; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 5px;
 
 }
 .data{
-    height: 40px;
+    /* height: 40px; */
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5px;
 } 
 .roi{
-    height: 40px;
+    /* height: 40px; */
     /* background-color: blueviolet; */
     display: flex;
     justify-content: center;
     align-items: center; 
+    padding-top: 5px;
 } 
 .date{
     display: flex;
@@ -337,11 +365,12 @@ main{
 }
 
 .stato{
-    height: 40px;
+    /* height: 40px; */
     /* background-color: chartreuse; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5px;
 } 
 .done{
     padding: 1px 6px;
@@ -365,18 +394,20 @@ main{
     font-size: 15px;
 }
 .azioni-name{
-    height: 40px;
+    /* height: 40px; */
     /* background-color: crimson; */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 5px;
 } 
 .azioni{
-    height: 40px;
+    /* height: 40px; */
     /* background-color: crimson; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 5px;
 } 
 .icon-azioni{
     font-size: 15px;
@@ -405,14 +436,17 @@ main{
 }
 .box1-md{
     width: 100%;
-    height: 550px;
-    background-color: chartreuse;
-    margin-bottom: 10px;
+    /* height: 550px; */
+    /* background-color: chartreuse; */
+    margin-bottom: 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    overflow: hidden;
 }
 .box2{
     width: 100%;
     /* height: 30%; */
-    background-color: chocolate;
+    /* background-color: chocolate; */
     border: 1px solid #d0d0d0;
     border-radius: 5px;
     overflow: hidden;
@@ -420,16 +454,29 @@ main{
 }
 .icon-down{
     color: #717376;
+    float: right;
 }
+.icon-up{
+    color: #717376;
+    float: right;
+    display:none;
+    visibility: hidden;
+}
+
+
 .box2-md{
     width: 100%;
-    height: 200px;
-    background-color: chocolate;
+    /* height: 200px;
+    background-color: chocolate; */
+    margin-bottom: 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    overflow: hidden;
 }
 .column-2{
     width: 35%;
-    height: 100%;
-     background-color: blue; 
+    /* height: 100%;
+     background-color: blue;  */
     padding: 10px;
 }
 .column-2-md{
@@ -445,6 +492,7 @@ main{
     padding-bottom: 20px;
     border: 1px solid #d0d0d0;
     border-radius: 5px;
+    margin-bottom: 20px;
     
 }
 
@@ -453,7 +501,15 @@ main{
     display: flex;
     align-items: center;
 }
-.cont-box3{
+.cont-box{
+    width: 90%;
+    height: 80%;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 20px;
+}
+.cont-box-md{
     width: 90%;
     height: 80%;
     border: 1px solid #d0d0d0;
@@ -462,7 +518,7 @@ main{
     margin: 0 20px;
 }
 .todo-title{
-    height: 50px;
+    /* height: 50px; */
     width: 100%;
     background-color: #f7f7f7;
     display: flex;
@@ -473,7 +529,7 @@ main{
 }
 .todo{
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
     background-color: white;
     display: flex;
     align-items: center;
@@ -481,25 +537,72 @@ main{
     padding-left: 20px;
     border-bottom: 1px solid #d0d0d0;
     width: 100%;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
 }
 .font-todo{
     font-size: 15px;
 }
 .box3-md{
     width: 100%;
-    height: 170px;
-    background-color: chartreuse;
-    margin-bottom: 10px;
+    /* height: 170px; */
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    overflow: hidden;
 }
 .box4{
     width: 100%;
-    height: 70%;
-    background-color: chocolate;
+    /* height: 70%; */
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.graph{
+    /* height: 40%; */
+    width: 100%;
+}
+.graph-md{
+    height: 60%;
+    width: 100%;
+}
+.graph-img{
+    height: 100%;
+    width: 100%;
+}
+.text-box4{
+    width: 100%;
+    /* height: 50%; */
+
+}
+
+.bord-line{
+    margin-top: 15px;
+    border-bottom: 1px solid #d0d0d0;
+    
+}
+.font-box4{
+    font-size: 13px;
+}
+.utenti{
+    width: 100%;
+    border-bottom: 1px solid #d0d0d0;
 }
 .box4-md{
     width: 100%;
-    height: 460px;
-    background-color: chocolate;
+    /* height: 860px; */
+    /* background-color: chocolate; */
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 @media screen and (max-width:992px){
     .main-section{
