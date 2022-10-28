@@ -109,6 +109,9 @@ main{
     align-items: center; 
     padding: 6px 0;
 }
+.box-text-icons:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
 .icons-side{
     color: white;
     font-size: 18px;
@@ -164,6 +167,10 @@ main{
     background-color: #165bba;
     border-radius: 10px;
     font-size: 13px;
+}
+.blaze:hover{
+    cursor: pointer;
+    background-color: #0f243e;
 }
 
 .header-box2{
@@ -278,6 +285,7 @@ main{
     margin-top: 20px;
     display: none;
 }
+
 .domanda:active .risposta{
     cursor: pointer;
     display: block;
@@ -327,6 +335,9 @@ main{
     
     
     
+}
+.row-1:hover{
+    background-color:rgba(138, 138, 138, 0.39);
 }
 .riga{
     margin: 0;
@@ -418,6 +429,9 @@ main{
     background-color: white;
     border: 1px solid #b2b7bb ;
     border-radius: 5px;
+}
+.pen:hover{
+    background-color: rgba(126, 126, 126, 0.4);
 }
 .circle{
     height: 30px;
@@ -613,4 +627,21 @@ main{
     }
     
 }
+@media screen and (max-width:755px){
+    .data{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .roi{
+        display: none;
+    }
+    /* .stato{
+       margin-right: 80px;
+    } */
+    
+    
+}
+
 
