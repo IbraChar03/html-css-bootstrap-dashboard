@@ -319,22 +319,27 @@ main{
     background-color:rgba(0, 47, 255, 0.5);
 } 
 .reset{
-    padding: 8px;
+    padding: 6px;
     background-color: #fdc03e;
-    color: black;
     border-radius: 5px;
 }
 .data2{
     margin-bottom: 20px;
     width: 100%;
     margin-top: 5px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 5px;
 }
 .name2{
     width: 100%;
     margin-top: 5px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 5px;
 }
 .salva{
-    padding: 8px;
+    padding: 6px;
     border-radius: 5px;
     background-color: #2671ee;
     color: white;
