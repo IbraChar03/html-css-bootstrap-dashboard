@@ -77,6 +77,7 @@ main{
 }
 .col-bell{
     color: #ff8f00;
+    cursor: pointer;
 }
 .sidebar{
     width: 150px;
@@ -168,6 +169,22 @@ main{
     border-radius: 10px;
     font-size: 13px;
 }
+.blaze2{
+    padding: 3px 5px;
+    background-color: #165bba;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.blaze4{
+    display: inline-block;
+}
+.blaze3{
+    display: none;
+}
+.blaze4:active .blaze3{
+    display: inline-block;
+
+}
 .blaze:hover{
     cursor: pointer;
     background-color: #0f243e;
@@ -181,7 +198,7 @@ main{
     margin-top: 10px;
 }
 .header-box1-md{
-    width: 60%;
+    /* width: 60%; */
     /* height: 45%;
     background-color: #ffc107; */
     margin-left: 10px;
@@ -614,8 +631,13 @@ main{
     width: 100%;
 }
 .graph-md{
-     height: 60%; 
+      height: 60%;  
     width: 100%;
+}
+.wrapper2{
+    position: relative; 
+    height:40vh; 
+    width:80vw;
 }
 .graph-img{
     height: 100%;
